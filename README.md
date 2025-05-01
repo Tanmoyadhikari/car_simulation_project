@@ -1,13 +1,13 @@
-🚗 Car Simulation CLI (Python OOP)
+#🚗 Car Simulation CLI (Python OOP)
 A command-line based car simulation written in Python using Object-Oriented Programming.
 Platform: Windows (due to msvcrt dependency)
 Language: Python 3.x
 
-📌 Overview
+##📌 Overview
 This is a simple yet interactive simulation that allows users to control a virtual car directly from the terminal.
 Features include real-time movement, engine control, dynamic speed adjustment, and on-the-go odometer updates — all encapsulated using clean object-oriented design.
 
-⚙️ Features
+##⚙️ Features
 🔑 Start & stop the car engine
 
 📏 Real-time distance tracking (in meters/second)
@@ -20,7 +20,7 @@ Features include real-time movement, engine control, dynamic speed adjustment, a
 
 🕒 Odometer updates every second while in motion
 
-🖥️ Requirements
+##🖥️ Requirements
 Python 3.x
 
 Windows OS
@@ -28,7 +28,7 @@ Windows OS
 
 💡 Cross-platform tip: Replace msvcrt with the keyboard module for compatibility across all operating systems.
 
-🚀 Getting Started
+##🚀 Getting Started
 🔧 Run the Simulation
 bash
 Copy
@@ -51,13 +51,13 @@ View inspection report
 
 Stop (Press ENTER)
 
-📁 Project Structure
+##📁 Project Structure
 bash
 Copy
 Edit
 ├── car_simulation.py   # Main script
 └── README.md           # Project documentation
-🧠 Key Concepts Demonstrated
+##🧠 Key Concepts Demonstrated
 Object-Oriented Programming (OOP)
 
 Classes, Encapsulation, State Management
@@ -74,12 +74,12 @@ Code Structuring
 
 Clean separation of logic into class methods
 
-📝 Notes
+##📝 Notes
 The simulation only works on Windows by default due to the use of the msvcrt module.
 
 Consider switching to a more universal input handler like keyboard for cross-platform use.
 
-✍️ Author
+##✍️ Author
 Tanmoyadhikari
 GitHub: https://github.com/tanmoyadhikari
 Feel free to ⭐️ the repo or contribute ideas!
